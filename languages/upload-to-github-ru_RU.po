@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Upload to GitHub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 15:17+0000\n"
+"PO-Revision-Date: 2026-07-26 15:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.6; wp-7.0.1; php-8.4.23\n"
+"X-Domain: upload-to-github"
+
+#: includes/class-settings.php:151
+msgid "(Created by this plugin)"
+msgstr "(Создано этим плагином)"
+
+#: includes/class-main.php:309
+msgid "(For private repositories, the repository is automatically set to username.github.io)"
+msgstr "(Для частных репозиториев репозиторий автоматически устанавливается на username.github.io)"
+
+#: includes/class-main.php:99
+msgid "All checks passed! Connection is working properly."
+msgstr "Все проверки пройдены! Соединение работает корректно."
+
+#: includes/class-settings.php:104
+msgid "All fields are required for testing."
+msgstr "Все поля обязательны для тестирования."
+
+#: includes/class-settings.php:29
+msgid "All fields are required."
+msgstr "Все поля обязательны для заполнения."
+
+#: includes/class-main.php:191
+msgid "All media files have been successfully migrated to GitHub!"
+msgstr "Все медиафайлы успешно перенесены на GitHub!"
+
+#: includes/class-main.php:110
+msgid "An error occurred while clearing the repository."
+msgstr "Произошла ошибка при очистке репозитория."
+
+#: includes/class-main.php:113
+msgid "An error occurred while saving settings."
+msgstr "Произошла ошибка при сохранении настроек."
+
+#: includes/class-main.php:104
+msgid "An error occurred while starting migration."
+msgstr "Произошла ошибка при запуске миграции."
+
+#: includes/class-main.php:108
+msgid "Are you sure you want to delete ALL files from the repository?\\n\\nThis action cannot be undone!"
+msgstr "Вы уверены, что хотите удалить ВСЕ файлы из репозитория?\\n\\nЭто действие нельзя отменить!"
+
+#: includes/class-settings.php:129
+#, php-format
+msgid "Authenticated as: %s"
+msgstr "Аутентифицирован как: %s"
+
+#: includes/class-main.php:95 includes/class-settings.php:122
+msgid "Authentication"
+msgstr "Аутентификация"
+
+#: includes/class-github-api.php:35
+msgid "Authentication failed"
+msgstr "Ошибка аутентификации"
+
+#: includes/class-settings.php:158
+msgid "Cannot access repository (authentication failed)"
+msgstr "Нет доступа к репозиторию (ошибка аутентификации)"
+
+#: includes/class-settings.php:189
+msgid "Cannot enable Pages (authentication failed)"
+msgstr "Невозможно включить Pages (ошибка аутентификации)"
+
+#: includes/class-settings.php:175
+msgid "Cannot test write permission (authentication failed)"
+msgstr "Невозможно проверить право записи (ошибка аутентификации)"
+
+#: includes/class-main.php:86 includes/class-main.php:388
+msgid "Clear Repository"
+msgstr "Очистить репозиторий"
+
+#: includes/class-github-api.php:331
+#, php-format
+msgid "Cleared %1$d files from repository. %2$s"
+msgstr "Очищено %d файлов из репозитория. %s"
+
+#: includes/class-main.php:92
+msgid "Clearing..."
+msgstr "Очистка..."
+
+#: includes/class-main.php:264
+msgid "Configure your GitHub credentials to enable uploading media files directly to your repository."
+msgstr "Настройте свои учетные данные GitHub, чтобы включить прямую загрузку медиафайлов в ваш репозиторий."
+
+#: includes/class-main.php:213
+msgid "Connected to GitHub API"
+msgstr "Подключено к GitHub API"
+
+#: includes/class-main.php:114
+msgid "Connection test failed."
+msgstr "Тест соединения не пройден."
+
+#: includes/class-main.php:372
+msgid "Custom path inside the repository for uploads. Example: \"test/test2\" will upload to /test/test2/"
+msgstr "Пользовательский путь внутри репозитория для загрузок. Пример: \"test/test2\" будет загружено в /test/test2/"
+
+#: includes/class-github-api.php:292
+msgid "Delete failed"
+msgstr "Ошибка удаления"
+
+#: includes/class-main.php:436
+msgid "Delete local files after migration"
+msgstr "Удалить локальные файлы после миграции"
+
+#: includes/class-main.php:300
+msgid "e.g., my-repository"
+msgstr "например, my-repository"
+
+#: includes/class-main.php:279
+msgid "e.g., octocat"
+msgstr "например, octocat"
+
+#: includes/class-main.php:368
+msgid "e.g., test/test2"
+msgstr "например, test/test2"
+
+#: includes/class-main.php:326
+msgid "Enter your GitHub Personal Access Token"
+msgstr "Введите ваш персональный токен доступа GitHub"
+
+#: includes/class-main.php:105
+msgid "Error checking migration progress."
+msgstr "Ошибка проверки прогресса миграции."
+
+#: includes/class-settings.php:63
+msgid "Failed to create repository. Please check your credentials."
+msgstr "Не удалось создать репозиторий. Пожалуйста, проверьте свои учетные данные."
+
+#: includes/class-settings.php:390
+#, php-format
+msgid "Failed to migrate %1$s: %2$s"
+msgstr "Ошибка миграции %s: %s"
+
+#: includes/class-settings.php:81
+msgid "Failed to update repository visibility."
+msgstr "Не удалось обновить видимость репозитория."
+
+#: includes/class-github-api.php:286
+msgid "File deleted successfully"
+msgstr "Файл успешно удален"
+
+#: includes/class-github-api.php:271
+msgid "File not found on GitHub"
+msgstr "Файл не найден на GitHub"
+
+#: includes/class-main.php:109
+msgid "Final confirmation: Delete all files from the GitHub repository?"
+msgstr "Окончательное подтверждение: Удалить все файлы из репозитория GitHub?"
+
+#: includes/class-main.php:334
+msgid "Generate a new token →"
+msgstr "Создать новый токен →"
+
+#: includes/class-main.php:332
+msgid "Generate a token with <code>repo</code> scope."
+msgstr "Создать токен с областью действия <code>repo</code>."
+
+#: includes/class-settings.php:49
+msgid "GitHub authentication failed. Please check your credentials."
+msgstr "Ошибка аутентификации GitHub. Пожалуйста, проверьте свои учетные данные."
+
+#: includes/class-main.php:263
+msgid "GitHub Configuration"
+msgstr "Конфигурация GitHub"
+
+#: includes/class-main.php:98 includes/class-settings.php:180
+msgid "GitHub Pages"
+msgstr "GitHub Pages"
+
+#: includes/class-settings.php:187
+msgid "GitHub Pages enabled"
+msgstr "GitHub Pages включены"
+
+#: includes/class-main.php:317
+msgid "GitHub Token"
+msgstr "Токен GitHub"
+
+#: includes/class-main.php:73
+msgid "GitHub token is required."
+msgstr "Требуется токен GitHub."
+
+#: includes/class-main.php:270
+msgid "GitHub Username"
+msgstr "Имя пользователя GitHub"
+
+#: includes/class-main.php:65
+msgid "GitHub username is required."
+msgstr "Требуется имя пользователя GitHub."
+
+#. URI of the plugin
+msgid "https://github.com/inject3r/upload-to-github"
+msgstr "https://github.com/inject3r/upload-to-github"
+
+#: includes/class-main.php:439
+msgid "If checked, local files will be removed from WordPress uploads folder after successful migration to GitHub."
+msgstr "Если отмечено, локальные файлы будут удалены из папки загрузок WordPress после успешной миграции на GitHub."
+
+#. Author of the plugin
+msgid "inject3r"
+msgstr "inject3r"
+
+#: includes/class-main.php:409
+msgid "Migrate Existing Media"
+msgstr "Перенести существующие медиа"
+
+#: includes/class-main.php:229
+msgid "Migrate Media"
+msgstr "Перенести медиа"
+
+#: includes/class-main.php:425
+msgid "Migrated"
+msgstr "Перенесено"
+
+#: includes/class-main.php:91
+msgid "Migrating..."
+msgstr "Перенос..."
+
+#: includes/class-main.php:103
+msgid "Migration completed successfully!"
+msgstr "Миграция успешно завершена!"
+
+#: includes/class-settings.php:304
+msgid "Migration started successfully!"
+msgstr "Миграция успешно запущена!"
+
+#: includes/class-github-api.php:308
+msgid "No uploads folder found or repository is empty."
+msgstr "Папка загрузок не найдена или репозиторий пуст."
+
+#: includes/class-main.php:361
+msgid "optional"
+msgstr "необязательно"
+
+#: includes/class-main.php:272
+msgid "or organization name"
+msgstr "или название организации"
+
+#: includes/class-main.php:319
+msgid "Personal Access Token"
+msgstr "Персональный токен доступа"
+
+#: includes/class-settings.php:296
+msgid "Please configure GitHub settings first."
+msgstr "Пожалуйста, сначала настройте параметры GitHub."
+
+#: includes/class-settings.php:204 includes/class-settings.php:232
+#: includes/class-settings.php:267
+msgid "Please configure settings first."
+msgstr "Пожалуйста, сначала настройте параметры."
+
+#: includes/class-main.php:415
+msgid "Please configure your GitHub settings first before migrating media files."
+msgstr "Пожалуйста, сначала настройте свои параметры GitHub перед переносом медиафайлов."
+
+#: includes/class-main.php:80
+msgid "Please configure your GitHub settings first."
+msgstr "Пожалуйста, сначала настройте свои параметры GitHub."
+
+#: includes/class-main.php:78
+msgid "Please fill in all fields."
+msgstr "Пожалуйста, заполните все поля."
+
+#: includes/class-main.php:79
+msgid "Please fix all validation errors before saving."
+msgstr "Пожалуйста, исправьте все ошибки проверки перед сохранением."
+
+#: includes/class-main.php:349
+msgid "Private (GitHub Pages)"
+msgstr "Частный (GitHub Pages)"
+
+#: includes/class-main.php:346
+msgid "Public"
+msgstr "Публичный"
+
+#: includes/class-main.php:429
+msgid "Remaining"
+msgstr "Осталось"
+
+#: includes/class-settings.php:149
+#, php-format
+msgid "Repository \"%s\" exists %s"
+msgstr "Репозиторий \"%s\" существует %s"
+
+#: includes/class-main.php:96 includes/class-settings.php:135
+msgid "Repository Access"
+msgstr "Доступ к репозиторию"
+
+#: includes/class-settings.php:154
+msgid "Repository does not exist (will be created)"
+msgstr "Репозиторий не существует (будет создан)"
+
+#: includes/class-main.php:292
+msgid "Repository Name"
+msgstr "Название репозитория"
+
+#: includes/class-main.php:70
+msgid "Repository name can only contain letters, numbers, hyphens, underscores, and dots."
+msgstr "Название репозитория может содержать только буквы, цифры, дефисы, подчеркивания и точки."
+
+#: includes/class-main.php:72
+msgid "Repository name cannot exceed 100 characters."
+msgstr "Название репозитория не может превышать 100 символов."
+
+#: includes/class-main.php:69
+msgid "Repository name is required."
+msgstr "Требуется название репозитория."
+
+#: includes/class-main.php:71
+msgid "Repository name must be at least 1 character."
+msgstr "Название репозитория должно содержать минимум 1 символ."
+
+#: includes/class-settings.php:246
+msgid "Repository not found."
+msgstr "Репозиторий не найден."
+
+#: includes/class-main.php:342
+msgid "Repository Visibility"
+msgstr "Видимость репозитория"
+
+#: includes/class-main.php:83 includes/class-main.php:380
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: includes/class-main.php:89
+msgid "Saving..."
+msgstr "Сохранение..."
+
+#: includes/class-main.php:223
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-settings.php:88
+msgid "Settings saved successfully!"
+msgstr "Настройки успешно сохранены!"
+
+#: includes/class-main.php:100
+msgid "Some checks failed. Please review the errors above."
+msgstr "Некоторые проверки не пройдены. Пожалуйста, просмотрите ошибки выше."
+
+#: includes/class-main.php:85 includes/class-main.php:454
+msgid "Start Migration"
+msgstr "Начать миграцию"
+
+#: includes/class-main.php:84 includes/class-main.php:384
+msgid "Test Connection"
+msgstr "Проверить соединение"
+
+#: includes/class-main.php:90
+msgid "Testing..."
+msgstr "Тестирование..."
+
+#: includes/class-main.php:307
+msgid "The name of the repository where files will be uploaded."
+msgstr "Название репозитория, в который будут загружены файлы."
+
+#: includes/class-main.php:75
+msgid "Token cannot exceed 255 characters."
+msgstr "Токен не может превышать 255 символов."
+
+#: includes/class-main.php:76
+msgid "Token format might be invalid. GitHub tokens usually start with ghp_, gho_, etc."
+msgstr "Формат токена может быть недействительным. Токены GitHub обычно начинаются с ghp_, gho_ и т.д."
+
+#: includes/class-main.php:74
+msgid "Token must be at least 40 characters long."
+msgstr "Токен должен содержать минимум 40 символов."
+
+#: includes/class-main.php:421
+msgid "Total Media Files"
+msgstr "Всего медиафайлов"
+
+#: includes/class-main.php:410
+msgid "Transfer all existing media files from WordPress uploads folder to your GitHub repository."
+msgstr "Перенесите все существующие медиафайлы из папки загрузок WordPress в ваш репозиторий GitHub."
+
+#: includes/class-settings.php:16 includes/class-settings.php:93
+#: includes/class-settings.php:198 includes/class-settings.php:226
+#: includes/class-settings.php:261 includes/class-settings.php:290
+#: includes/class-settings.php:421
+msgid "Unauthorized access."
+msgstr "Несанкционированный доступ."
+
+#: includes/class-github-api.php:254
+msgid "Upload failed"
+msgstr "Ошибка загрузки"
+
+#: includes/class-main.php:360
+msgid "Upload Path"
+msgstr "Путь загрузки"
+
+#. Name of the plugin
+#: includes/class-main.php:30 includes/class-main.php:207
+msgid "Upload to GitHub"
+msgstr "Загрузить на GitHub"
+
+#: includes/class-main.php:29
+msgid "Upload to GitHub Settings"
+msgstr "Настройки загрузки на GitHub"
+
+#. Description of the plugin
+msgid "Upload WordPress media files directly to a GitHub repository instead of the default uploads folder."
+msgstr "Загружайте медиафайлы WordPress напрямую в репозиторий GitHub вместо стандартной папки загрузок."
+
+#: includes/class-main.php:66
+msgid "Username can only contain letters, numbers, hyphens, and underscores."
+msgstr "Имя пользователя может содержать только буквы, цифры, дефисы и подчеркивания."
+
+#: includes/class-main.php:68
+msgid "Username cannot exceed 39 characters."
+msgstr "Имя пользователя не может превышать 39 символов."
+
+#: includes/class-main.php:67
+msgid "Username must be at least 1 character."
+msgstr "Имя пользователя должно содержать минимум 1 символ."
+
+#: includes/class-main.php:77
+msgid "Valid"
+msgstr "Действительно"
+
+#: includes/class-main.php:353
+msgid "Visibility of the repository. Private repositories use GitHub Pages for serving media."
+msgstr "Видимость репозитория. Частные репозитории используют GitHub Pages для обслуживания медиа."
+
+#: includes/class-main.php:97 includes/class-settings.php:162
+msgid "Write Permission"
+msgstr "Право записи"
+
+#: includes/class-settings.php:170
+msgid "Write permission confirmed"
+msgstr "Право записи подтверждено"
+
+#: includes/class-github-api.php:55
+msgid "Write permission denied"
+msgstr "В праве записи отказано"
+
+#: includes/class-github-api.php:49
+msgid "Write permission verified"
+msgstr "Право записи проверено"
+
+#: includes/class-main.php:285
+msgid "Your GitHub username or organization name where the repository exists."
+msgstr "Ваше имя пользователя GitHub или название организации, в которой находится репозиторий."

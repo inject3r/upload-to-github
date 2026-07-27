@@ -1,0 +1,457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Upload to GitHub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 15:17+0000\n"
+"PO-Revision-Date: 2026-07-26 15:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.6; wp-7.0.1; php-8.4.23\n"
+"X-Domain: upload-to-github"
+
+#: includes/class-settings.php:151
+msgid "(Created by this plugin)"
+msgstr "(Bu eklenti tarafından oluşturuldu)"
+
+#: includes/class-main.php:309
+msgid "(For private repositories, the repository is automatically set to username.github.io)"
+msgstr "(Özel depolar için depo otomatik olarak username.github.io olarak ayarlanır)"
+
+#: includes/class-main.php:99
+msgid "All checks passed! Connection is working properly."
+msgstr "Tüm kontroller geçti! Bağlantı düzgün çalışıyor."
+
+#: includes/class-settings.php:104
+msgid "All fields are required for testing."
+msgstr "Test için tüm alanlar zorunludur."
+
+#: includes/class-settings.php:29
+msgid "All fields are required."
+msgstr "Tüm alanlar zorunludur."
+
+#: includes/class-main.php:191
+msgid "All media files have been successfully migrated to GitHub!"
+msgstr "Tüm medya dosyaları başarıyla GitHub'a taşındı!"
+
+#: includes/class-main.php:110
+msgid "An error occurred while clearing the repository."
+msgstr "Depo temizlenirken bir hata oluştu."
+
+#: includes/class-main.php:113
+msgid "An error occurred while saving settings."
+msgstr "Ayarlar kaydedilirken bir hata oluştu."
+
+#: includes/class-main.php:104
+msgid "An error occurred while starting migration."
+msgstr "Taşıma başlatılırken bir hata oluştu."
+
+#: includes/class-main.php:108
+msgid "Are you sure you want to delete ALL files from the repository?\\n\\nThis action cannot be undone!"
+msgstr "Depodaki TÜM dosyaları silmek istediğinizden emin misiniz?\\n\\nBu işlem geri alınamaz!"
+
+#: includes/class-settings.php:129
+#, php-format
+msgid "Authenticated as: %s"
+msgstr "%s olarak kimlik doğrulandı"
+
+#: includes/class-main.php:95 includes/class-settings.php:122
+msgid "Authentication"
+msgstr "Kimlik Doğrulama"
+
+#: includes/class-github-api.php:35
+msgid "Authentication failed"
+msgstr "Kimlik doğrulama başarısız"
+
+#: includes/class-settings.php:158
+msgid "Cannot access repository (authentication failed)"
+msgstr "Depoya erişilemiyor (kimlik doğrulama başarısız)"
+
+#: includes/class-settings.php:189
+msgid "Cannot enable Pages (authentication failed)"
+msgstr "Pages etkinleştirilemiyor (kimlik doğrulama başarısız)"
+
+#: includes/class-settings.php:175
+msgid "Cannot test write permission (authentication failed)"
+msgstr "Yazma izni test edilemiyor (kimlik doğrulama başarısız)"
+
+#: includes/class-main.php:86 includes/class-main.php:388
+msgid "Clear Repository"
+msgstr "Depoyu Temizle"
+
+#: includes/class-github-api.php:331
+#, php-format
+msgid "Cleared %1$d files from repository. %2$s"
+msgstr "Depodan %d dosya temizlendi. %s"
+
+#: includes/class-main.php:92
+msgid "Clearing..."
+msgstr "Temizleniyor..."
+
+#: includes/class-main.php:264
+msgid "Configure your GitHub credentials to enable uploading media files directly to your repository."
+msgstr "Medya dosyalarını doğrudan deponuza yüklemeyi etkinleştirmek için GitHub kimlik bilgilerinizi yapılandırın."
+
+#: includes/class-main.php:213
+msgid "Connected to GitHub API"
+msgstr "GitHub API'sine bağlandı"
+
+#: includes/class-main.php:114
+msgid "Connection test failed."
+msgstr "Bağlantı testi başarısız."
+
+#: includes/class-main.php:372
+msgid "Custom path inside the repository for uploads. Example: \"test/test2\" will upload to /test/test2/"
+msgstr "Yüklemeler için depo içinde özel yol. Örnek: \"test/test2\" /test/test2/ dizinine yükler"
+
+#: includes/class-github-api.php:292
+msgid "Delete failed"
+msgstr "Silme başarısız"
+
+#: includes/class-main.php:436
+msgid "Delete local files after migration"
+msgstr "Taşıma işleminden sonra yerel dosyaları sil"
+
+#: includes/class-main.php:300
+msgid "e.g., my-repository"
+msgstr "örn., my-repository"
+
+#: includes/class-main.php:279
+msgid "e.g., octocat"
+msgstr "örn., octocat"
+
+#: includes/class-main.php:368
+msgid "e.g., test/test2"
+msgstr "örn., test/test2"
+
+#: includes/class-main.php:326
+msgid "Enter your GitHub Personal Access Token"
+msgstr "GitHub Kişisel Erişim Jetonunuzu girin"
+
+#: includes/class-main.php:105
+msgid "Error checking migration progress."
+msgstr "Taşıma ilerlemesi kontrol edilirken hata oluştu."
+
+#: includes/class-settings.php:63
+msgid "Failed to create repository. Please check your credentials."
+msgstr "Depo oluşturulamadı. Lütfen kimlik bilgilerinizi kontrol edin."
+
+#: includes/class-settings.php:390
+#, php-format
+msgid "Failed to migrate %1$s: %2$s"
+msgstr "%s taşınamadı: %s"
+
+#: includes/class-settings.php:81
+msgid "Failed to update repository visibility."
+msgstr "Depo görünürlüğü güncellenemedi."
+
+#: includes/class-github-api.php:286
+msgid "File deleted successfully"
+msgstr "Dosya başarıyla silindi"
+
+#: includes/class-github-api.php:271
+msgid "File not found on GitHub"
+msgstr "Dosya GitHub'da bulunamadı"
+
+#: includes/class-main.php:109
+msgid "Final confirmation: Delete all files from the GitHub repository?"
+msgstr "Son onay: GitHub deposundaki tüm dosyalar silinsin mi?"
+
+#: includes/class-main.php:334
+msgid "Generate a new token →"
+msgstr "Yeni jeton oluştur →"
+
+#: includes/class-main.php:332
+msgid "Generate a token with <code>repo</code> scope."
+msgstr "<code>repo</code> kapsamında bir jeton oluşturun."
+
+#: includes/class-settings.php:49
+msgid "GitHub authentication failed. Please check your credentials."
+msgstr "GitHub kimlik doğrulaması başarısız. Lütfen kimlik bilgilerinizi kontrol edin."
+
+#: includes/class-main.php:263
+msgid "GitHub Configuration"
+msgstr "GitHub Yapılandırması"
+
+#: includes/class-main.php:98 includes/class-settings.php:180
+msgid "GitHub Pages"
+msgstr "GitHub Pages"
+
+#: includes/class-settings.php:187
+msgid "GitHub Pages enabled"
+msgstr "GitHub Pages etkinleştirildi"
+
+#: includes/class-main.php:317
+msgid "GitHub Token"
+msgstr "GitHub Jetonu"
+
+#: includes/class-main.php:73
+msgid "GitHub token is required."
+msgstr "GitHub jetonu gereklidir."
+
+#: includes/class-main.php:270
+msgid "GitHub Username"
+msgstr "GitHub Kullanıcı Adı"
+
+#: includes/class-main.php:65
+msgid "GitHub username is required."
+msgstr "GitHub kullanıcı adı gereklidir."
+
+#. URI of the plugin
+msgid "https://github.com/inject3r/upload-to-github"
+msgstr "https://github.com/inject3r/upload-to-github"
+
+#: includes/class-main.php:439
+msgid "If checked, local files will be removed from WordPress uploads folder after successful migration to GitHub."
+msgstr "İşaretlenirse, GitHub'a başarılı taşıma işleminden sonra yerel dosyalar WordPress yükleme klasöründen kaldırılır."
+
+#. Author of the plugin
+msgid "inject3r"
+msgstr "inject3r"
+
+#: includes/class-main.php:409
+msgid "Migrate Existing Media"
+msgstr "Mevcut Medyayı Taşı"
+
+#: includes/class-main.php:229
+msgid "Migrate Media"
+msgstr "Medyayı Taşı"
+
+#: includes/class-main.php:425
+msgid "Migrated"
+msgstr "Taşındı"
+
+#: includes/class-main.php:91
+msgid "Migrating..."
+msgstr "Taşınıyor..."
+
+#: includes/class-main.php:103
+msgid "Migration completed successfully!"
+msgstr "Taşıma başarıyla tamamlandı!"
+
+#: includes/class-settings.php:304
+msgid "Migration started successfully!"
+msgstr "Taşıma başarıyla başlatıldı!"
+
+#: includes/class-github-api.php:308
+msgid "No uploads folder found or repository is empty."
+msgstr "Yükleme klasörü bulunamadı veya depo boş."
+
+#: includes/class-main.php:361
+msgid "optional"
+msgstr "isteğe bağlı"
+
+#: includes/class-main.php:272
+msgid "or organization name"
+msgstr "veya kuruluş adı"
+
+#: includes/class-main.php:319
+msgid "Personal Access Token"
+msgstr "Kişisel Erişim Jetonu"
+
+#: includes/class-settings.php:296
+msgid "Please configure GitHub settings first."
+msgstr "Lütfen önce GitHub ayarlarını yapılandırın."
+
+#: includes/class-settings.php:204 includes/class-settings.php:232
+#: includes/class-settings.php:267
+msgid "Please configure settings first."
+msgstr "Lütfen önce ayarları yapılandırın."
+
+#: includes/class-main.php:415
+msgid "Please configure your GitHub settings first before migrating media files."
+msgstr "Lütfen medya dosyalarını taşımadan önce GitHub ayarlarınızı yapılandırın."
+
+#: includes/class-main.php:80
+msgid "Please configure your GitHub settings first."
+msgstr "Lütfen önce GitHub ayarlarınızı yapılandırın."
+
+#: includes/class-main.php:78
+msgid "Please fill in all fields."
+msgstr "Lütfen tüm alanları doldurun."
+
+#: includes/class-main.php:79
+msgid "Please fix all validation errors before saving."
+msgstr "Lütfen kaydetmeden önce tüm doğrulama hatalarını düzeltin."
+
+#: includes/class-main.php:349
+msgid "Private (GitHub Pages)"
+msgstr "Özel (GitHub Pages)"
+
+#: includes/class-main.php:346
+msgid "Public"
+msgstr "Genel"
+
+#: includes/class-main.php:429
+msgid "Remaining"
+msgstr "Kalan"
+
+#: includes/class-settings.php:149
+#, php-format
+msgid "Repository \"%s\" exists %s"
+msgstr "\"%s\" deposu mevcut %s"
+
+#: includes/class-main.php:96 includes/class-settings.php:135
+msgid "Repository Access"
+msgstr "Depo Erişimi"
+
+#: includes/class-settings.php:154
+msgid "Repository does not exist (will be created)"
+msgstr "Depo mevcut değil (oluşturulacak)"
+
+#: includes/class-main.php:292
+msgid "Repository Name"
+msgstr "Depo Adı"
+
+#: includes/class-main.php:70
+msgid "Repository name can only contain letters, numbers, hyphens, underscores, and dots."
+msgstr "Depo adı yalnızca harf, sayı, tire, alt çizgi ve nokta içerebilir."
+
+#: includes/class-main.php:72
+msgid "Repository name cannot exceed 100 characters."
+msgstr "Depo adı 100 karakteri geçemez."
+
+#: includes/class-main.php:69
+msgid "Repository name is required."
+msgstr "Depo adı gereklidir."
+
+#: includes/class-main.php:71
+msgid "Repository name must be at least 1 character."
+msgstr "Depo adı en az 1 karakter olmalıdır."
+
+#: includes/class-settings.php:246
+msgid "Repository not found."
+msgstr "Depo bulunamadı."
+
+#: includes/class-main.php:342
+msgid "Repository Visibility"
+msgstr "Depo Görünürlüğü"
+
+#: includes/class-main.php:83 includes/class-main.php:380
+msgid "Save Settings"
+msgstr "Ayarları Kaydet"
+
+#: includes/class-main.php:89
+msgid "Saving..."
+msgstr "Kaydediliyor..."
+
+#: includes/class-main.php:223
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/class-settings.php:88
+msgid "Settings saved successfully!"
+msgstr "Ayarlar başarıyla kaydedildi!"
+
+#: includes/class-main.php:100
+msgid "Some checks failed. Please review the errors above."
+msgstr "Bazı kontroller başarısız oldu. Lütfen yukarıdaki hataları inceleyin."
+
+#: includes/class-main.php:85 includes/class-main.php:454
+msgid "Start Migration"
+msgstr "Taşımayı Başlat"
+
+#: includes/class-main.php:84 includes/class-main.php:384
+msgid "Test Connection"
+msgstr "Bağlantıyı Test Et"
+
+#: includes/class-main.php:90
+msgid "Testing..."
+msgstr "Test ediliyor..."
+
+#: includes/class-main.php:307
+msgid "The name of the repository where files will be uploaded."
+msgstr "Dosyaların yükleneceği deponun adı."
+
+#: includes/class-main.php:75
+msgid "Token cannot exceed 255 characters."
+msgstr "Jeton 255 karakteri geçemez."
+
+#: includes/class-main.php:76
+msgid "Token format might be invalid. GitHub tokens usually start with ghp_, gho_, etc."
+msgstr "Jeton formatı geçersiz olabilir. GitHub jetonları genellikle ghp_, gho_ vb. ile başlar."
+
+#: includes/class-main.php:74
+msgid "Token must be at least 40 characters long."
+msgstr "Jeton en az 40 karakter uzunluğunda olmalıdır."
+
+#: includes/class-main.php:421
+msgid "Total Media Files"
+msgstr "Toplam Medya Dosyası"
+
+#: includes/class-main.php:410
+msgid "Transfer all existing media files from WordPress uploads folder to your GitHub repository."
+msgstr "Mevcut tüm medya dosyalarını WordPress yükleme klasöründen GitHub deponuza aktarın."
+
+#: includes/class-settings.php:16 includes/class-settings.php:93
+#: includes/class-settings.php:198 includes/class-settings.php:226
+#: includes/class-settings.php:261 includes/class-settings.php:290
+#: includes/class-settings.php:421
+msgid "Unauthorized access."
+msgstr "Yetkisiz erişim."
+
+#: includes/class-github-api.php:254
+msgid "Upload failed"
+msgstr "Yükleme başarısız"
+
+#: includes/class-main.php:360
+msgid "Upload Path"
+msgstr "Yükleme Yolu"
+
+#. Name of the plugin
+#: includes/class-main.php:30 includes/class-main.php:207
+msgid "Upload to GitHub"
+msgstr "GitHub'a Yükle"
+
+#: includes/class-main.php:29
+msgid "Upload to GitHub Settings"
+msgstr "GitHub'a Yükle Ayarları"
+
+#. Description of the plugin
+msgid "Upload WordPress media files directly to a GitHub repository instead of the default uploads folder."
+msgstr "WordPress medya dosyalarını varsayılan yükleme klasörü yerine doğrudan bir GitHub deposuna yükleyin."
+
+#: includes/class-main.php:66
+msgid "Username can only contain letters, numbers, hyphens, and underscores."
+msgstr "Kullanıcı adı yalnızca harf, sayı, tire ve alt çizgi içerebilir."
+
+#: includes/class-main.php:68
+msgid "Username cannot exceed 39 characters."
+msgstr "Kullanıcı adı 39 karakteri geçemez."
+
+#: includes/class-main.php:67
+msgid "Username must be at least 1 character."
+msgstr "Kullanıcı adı en az 1 karakter olmalıdır."
+
+#: includes/class-main.php:77
+msgid "Valid"
+msgstr "Geçerli"
+
+#: includes/class-main.php:353
+msgid "Visibility of the repository. Private repositories use GitHub Pages for serving media."
+msgstr "Deponun görünürlüğü. Özel depolar medya sunmak için GitHub Pages kullanır."
+
+#: includes/class-main.php:97 includes/class-settings.php:162
+msgid "Write Permission"
+msgstr "Yazma İzni"
+
+#: includes/class-settings.php:170
+msgid "Write permission confirmed"
+msgstr "Yazma izni onaylandı"
+
+#: includes/class-github-api.php:55
+msgid "Write permission denied"
+msgstr "Yazma izni reddedildi"
+
+#: includes/class-github-api.php:49
+msgid "Write permission verified"
+msgstr "Yazma izni doğrulandı"
+
+#: includes/class-main.php:285
+msgid "Your GitHub username or organization name where the repository exists."
+msgstr "Deponun bulunduğu GitHub kullanıcı adınız veya kuruluş adınız."

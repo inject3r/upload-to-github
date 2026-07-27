@@ -1,0 +1,457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Upload to GitHub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 15:17+0000\n"
+"PO-Revision-Date: 2026-07-26 15:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.6; wp-7.0.1; php-8.4.23\n"
+"X-Domain: upload-to-github"
+
+#: includes/class-settings.php:151
+msgid "(Created by this plugin)"
+msgstr "(Créé par cette extension)"
+
+#: includes/class-main.php:309
+msgid "(For private repositories, the repository is automatically set to username.github.io)"
+msgstr "(Pour les dépôts privés, le dépôt est automatiquement défini sur username.github.io)"
+
+#: includes/class-main.php:99
+msgid "All checks passed! Connection is working properly."
+msgstr "Tous les contrôles ont réussi ! La connexion fonctionne correctement."
+
+#: includes/class-settings.php:104
+msgid "All fields are required for testing."
+msgstr "Tous les champs sont requis pour le test."
+
+#: includes/class-settings.php:29
+msgid "All fields are required."
+msgstr "Tous les champs sont requis."
+
+#: includes/class-main.php:191
+msgid "All media files have been successfully migrated to GitHub!"
+msgstr "Tous les fichiers multimédia ont été migrés avec succès vers GitHub !"
+
+#: includes/class-main.php:110
+msgid "An error occurred while clearing the repository."
+msgstr "Une erreur est survenue lors du vidage du dépôt."
+
+#: includes/class-main.php:113
+msgid "An error occurred while saving settings."
+msgstr "Une erreur est survenue lors de l'enregistrement des paramètres."
+
+#: includes/class-main.php:104
+msgid "An error occurred while starting migration."
+msgstr "Une erreur est survenue lors du démarrage de la migration."
+
+#: includes/class-main.php:108
+msgid "Are you sure you want to delete ALL files from the repository?\\n\\nThis action cannot be undone!"
+msgstr "Êtes-vous sûr de vouloir supprimer TOUS les fichiers du dépôt ?\\n\\nCette action ne peut pas être annulée !"
+
+#: includes/class-settings.php:129
+#, php-format
+msgid "Authenticated as: %s"
+msgstr "Authentifié en tant que : %s"
+
+#: includes/class-main.php:95 includes/class-settings.php:122
+msgid "Authentication"
+msgstr "Authentification"
+
+#: includes/class-github-api.php:35
+msgid "Authentication failed"
+msgstr "Échec de l'authentification"
+
+#: includes/class-settings.php:158
+msgid "Cannot access repository (authentication failed)"
+msgstr "Impossible d'accéder au dépôt (échec de l'authentification)"
+
+#: includes/class-settings.php:189
+msgid "Cannot enable Pages (authentication failed)"
+msgstr "Impossible d'activer Pages (échec de l'authentification)"
+
+#: includes/class-settings.php:175
+msgid "Cannot test write permission (authentication failed)"
+msgstr "Impossible de tester l'autorisation d'écriture (échec de l'authentification)"
+
+#: includes/class-main.php:86 includes/class-main.php:388
+msgid "Clear Repository"
+msgstr "Vider le dépôt"
+
+#: includes/class-github-api.php:331
+#, php-format
+msgid "Cleared %1$d files from repository. %2$s"
+msgstr "%d fichiers supprimés du dépôt. %s"
+
+#: includes/class-main.php:92
+msgid "Clearing..."
+msgstr "Vidage en cours..."
+
+#: includes/class-main.php:264
+msgid "Configure your GitHub credentials to enable uploading media files directly to your repository."
+msgstr "Configurez vos identifiants GitHub pour permettre le téléchargement direct de fichiers multimédia dans votre dépôt."
+
+#: includes/class-main.php:213
+msgid "Connected to GitHub API"
+msgstr "Connecté à l'API GitHub"
+
+#: includes/class-main.php:114
+msgid "Connection test failed."
+msgstr "Le test de connexion a échoué."
+
+#: includes/class-main.php:372
+msgid "Custom path inside the repository for uploads. Example: \"test/test2\" will upload to /test/test2/"
+msgstr "Chemin personnalisé dans le dépôt pour les téléchargements. Exemple : \"test/test2\" sera téléchargé dans /test/test2/"
+
+#: includes/class-github-api.php:292
+msgid "Delete failed"
+msgstr "Échec de la suppression"
+
+#: includes/class-main.php:436
+msgid "Delete local files after migration"
+msgstr "Supprimer les fichiers locaux après la migration"
+
+#: includes/class-main.php:300
+msgid "e.g., my-repository"
+msgstr "ex., mon-depot"
+
+#: includes/class-main.php:279
+msgid "e.g., octocat"
+msgstr "ex., octocat"
+
+#: includes/class-main.php:368
+msgid "e.g., test/test2"
+msgstr "ex., test/test2"
+
+#: includes/class-main.php:326
+msgid "Enter your GitHub Personal Access Token"
+msgstr "Entrez votre jeton d'accès personnel GitHub"
+
+#: includes/class-main.php:105
+msgid "Error checking migration progress."
+msgstr "Erreur lors de la vérification de la progression de la migration."
+
+#: includes/class-settings.php:63
+msgid "Failed to create repository. Please check your credentials."
+msgstr "Échec de la création du dépôt. Veuillez vérifier vos identifiants."
+
+#: includes/class-settings.php:390
+#, php-format
+msgid "Failed to migrate %1$s: %2$s"
+msgstr "Échec de la migration de %s : %s"
+
+#: includes/class-settings.php:81
+msgid "Failed to update repository visibility."
+msgstr "Échec de la mise à jour de la visibilité du dépôt."
+
+#: includes/class-github-api.php:286
+msgid "File deleted successfully"
+msgstr "Fichier supprimé avec succès"
+
+#: includes/class-github-api.php:271
+msgid "File not found on GitHub"
+msgstr "Fichier non trouvé sur GitHub"
+
+#: includes/class-main.php:109
+msgid "Final confirmation: Delete all files from the GitHub repository?"
+msgstr "Confirmation finale : Supprimer tous les fichiers du dépôt GitHub ?"
+
+#: includes/class-main.php:334
+msgid "Generate a new token →"
+msgstr "Générer un nouveau jeton →"
+
+#: includes/class-main.php:332
+msgid "Generate a token with <code>repo</code> scope."
+msgstr "Générer un jeton avec la portée <code>repo</code>."
+
+#: includes/class-settings.php:49
+msgid "GitHub authentication failed. Please check your credentials."
+msgstr "L'authentification GitHub a échoué. Veuillez vérifier vos identifiants."
+
+#: includes/class-main.php:263
+msgid "GitHub Configuration"
+msgstr "Configuration GitHub"
+
+#: includes/class-main.php:98 includes/class-settings.php:180
+msgid "GitHub Pages"
+msgstr "GitHub Pages"
+
+#: includes/class-settings.php:187
+msgid "GitHub Pages enabled"
+msgstr "GitHub Pages activé"
+
+#: includes/class-main.php:317
+msgid "GitHub Token"
+msgstr "Jeton GitHub"
+
+#: includes/class-main.php:73
+msgid "GitHub token is required."
+msgstr "Le jeton GitHub est requis."
+
+#: includes/class-main.php:270
+msgid "GitHub Username"
+msgstr "Nom d'utilisateur GitHub"
+
+#: includes/class-main.php:65
+msgid "GitHub username is required."
+msgstr "Le nom d'utilisateur GitHub est requis."
+
+#. URI of the plugin
+msgid "https://github.com/inject3r/upload-to-github"
+msgstr "https://github.com/inject3r/upload-to-github"
+
+#: includes/class-main.php:439
+msgid "If checked, local files will be removed from WordPress uploads folder after successful migration to GitHub."
+msgstr "Si coché, les fichiers locaux seront supprimés du dossier de téléchargement WordPress après une migration réussie vers GitHub."
+
+#. Author of the plugin
+msgid "inject3r"
+msgstr "inject3r"
+
+#: includes/class-main.php:409
+msgid "Migrate Existing Media"
+msgstr "Migrer les médias existants"
+
+#: includes/class-main.php:229
+msgid "Migrate Media"
+msgstr "Migrer les médias"
+
+#: includes/class-main.php:425
+msgid "Migrated"
+msgstr "Migré"
+
+#: includes/class-main.php:91
+msgid "Migrating..."
+msgstr "Migration en cours..."
+
+#: includes/class-main.php:103
+msgid "Migration completed successfully!"
+msgstr "Migration terminée avec succès !"
+
+#: includes/class-settings.php:304
+msgid "Migration started successfully!"
+msgstr "Migration démarrée avec succès !"
+
+#: includes/class-github-api.php:308
+msgid "No uploads folder found or repository is empty."
+msgstr "Aucun dossier de téléchargement trouvé ou le dépôt est vide."
+
+#: includes/class-main.php:361
+msgid "optional"
+msgstr "optionnel"
+
+#: includes/class-main.php:272
+msgid "or organization name"
+msgstr "ou nom de l'organisation"
+
+#: includes/class-main.php:319
+msgid "Personal Access Token"
+msgstr "Jeton d'accès personnel"
+
+#: includes/class-settings.php:296
+msgid "Please configure GitHub settings first."
+msgstr "Veuillez d'abord configurer les paramètres GitHub."
+
+#: includes/class-settings.php:204 includes/class-settings.php:232
+#: includes/class-settings.php:267
+msgid "Please configure settings first."
+msgstr "Veuillez d'abord configurer les paramètres."
+
+#: includes/class-main.php:415
+msgid "Please configure your GitHub settings first before migrating media files."
+msgstr "Veuillez d'abord configurer vos paramètres GitHub avant de migrer les fichiers multimédias."
+
+#: includes/class-main.php:80
+msgid "Please configure your GitHub settings first."
+msgstr "Veuillez d'abord configurer vos paramètres GitHub."
+
+#: includes/class-main.php:78
+msgid "Please fill in all fields."
+msgstr "Veuillez remplir tous les champs."
+
+#: includes/class-main.php:79
+msgid "Please fix all validation errors before saving."
+msgstr "Veuillez corriger toutes les erreurs de validation avant d'enregistrer."
+
+#: includes/class-main.php:349
+msgid "Private (GitHub Pages)"
+msgstr "Privé (GitHub Pages)"
+
+#: includes/class-main.php:346
+msgid "Public"
+msgstr "Public"
+
+#: includes/class-main.php:429
+msgid "Remaining"
+msgstr "Restant"
+
+#: includes/class-settings.php:149
+#, php-format
+msgid "Repository \"%s\" exists %s"
+msgstr "Le dépôt \"%s\" existe %s"
+
+#: includes/class-main.php:96 includes/class-settings.php:135
+msgid "Repository Access"
+msgstr "Accès au dépôt"
+
+#: includes/class-settings.php:154
+msgid "Repository does not exist (will be created)"
+msgstr "Le dépôt n'existe pas (sera créé)"
+
+#: includes/class-main.php:292
+msgid "Repository Name"
+msgstr "Nom du dépôt"
+
+#: includes/class-main.php:70
+msgid "Repository name can only contain letters, numbers, hyphens, underscores, and dots."
+msgstr "Le nom du dépôt ne peut contenir que des lettres, des chiffres, des tirets, des traits de soulignement et des points."
+
+#: includes/class-main.php:72
+msgid "Repository name cannot exceed 100 characters."
+msgstr "Le nom du dépôt ne peut pas dépasser 100 caractères."
+
+#: includes/class-main.php:69
+msgid "Repository name is required."
+msgstr "Le nom du dépôt est requis."
+
+#: includes/class-main.php:71
+msgid "Repository name must be at least 1 character."
+msgstr "Le nom du dépôt doit comporter au moins 1 caractère."
+
+#: includes/class-settings.php:246
+msgid "Repository not found."
+msgstr "Dépôt non trouvé."
+
+#: includes/class-main.php:342
+msgid "Repository Visibility"
+msgstr "Visibilité du dépôt"
+
+#: includes/class-main.php:83 includes/class-main.php:380
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: includes/class-main.php:89
+msgid "Saving..."
+msgstr "Enregistrement en cours..."
+
+#: includes/class-main.php:223
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/class-settings.php:88
+msgid "Settings saved successfully!"
+msgstr "Paramètres enregistrés avec succès !"
+
+#: includes/class-main.php:100
+msgid "Some checks failed. Please review the errors above."
+msgstr "Certains contrôles ont échoué. Veuillez examiner les erreurs ci-dessus."
+
+#: includes/class-main.php:85 includes/class-main.php:454
+msgid "Start Migration"
+msgstr "Démarrer la migration"
+
+#: includes/class-main.php:84 includes/class-main.php:384
+msgid "Test Connection"
+msgstr "Tester la connexion"
+
+#: includes/class-main.php:90
+msgid "Testing..."
+msgstr "Test en cours..."
+
+#: includes/class-main.php:307
+msgid "The name of the repository where files will be uploaded."
+msgstr "Le nom du dépôt où les fichiers seront téléchargés."
+
+#: includes/class-main.php:75
+msgid "Token cannot exceed 255 characters."
+msgstr "Le jeton ne peut pas dépasser 255 caractères."
+
+#: includes/class-main.php:76
+msgid "Token format might be invalid. GitHub tokens usually start with ghp_, gho_, etc."
+msgstr "Le format du jeton peut être invalide. Les jetons GitHub commencent généralement par ghp_, gho_, etc."
+
+#: includes/class-main.php:74
+msgid "Token must be at least 40 characters long."
+msgstr "Le jeton doit comporter au moins 40 caractères."
+
+#: includes/class-main.php:421
+msgid "Total Media Files"
+msgstr "Total des fichiers multimédias"
+
+#: includes/class-main.php:410
+msgid "Transfer all existing media files from WordPress uploads folder to your GitHub repository."
+msgstr "Transférez tous les fichiers multimédias existants du dossier de téléchargement WordPress vers votre dépôt GitHub."
+
+#: includes/class-settings.php:16 includes/class-settings.php:93
+#: includes/class-settings.php:198 includes/class-settings.php:226
+#: includes/class-settings.php:261 includes/class-settings.php:290
+#: includes/class-settings.php:421
+msgid "Unauthorized access."
+msgstr "Accès non autorisé."
+
+#: includes/class-github-api.php:254
+msgid "Upload failed"
+msgstr "Échec du téléchargement"
+
+#: includes/class-main.php:360
+msgid "Upload Path"
+msgstr "Chemin de téléchargement"
+
+#. Name of the plugin
+#: includes/class-main.php:30 includes/class-main.php:207
+msgid "Upload to GitHub"
+msgstr "Télécharger vers GitHub"
+
+#: includes/class-main.php:29
+msgid "Upload to GitHub Settings"
+msgstr "Paramètres de Télécharger vers GitHub"
+
+#. Description of the plugin
+msgid "Upload WordPress media files directly to a GitHub repository instead of the default uploads folder."
+msgstr "Téléchargez les fichiers multimédias WordPress directement dans un dépôt GitHub au lieu du dossier de téléchargement par défaut."
+
+#: includes/class-main.php:66
+msgid "Username can only contain letters, numbers, hyphens, and underscores."
+msgstr "Le nom d'utilisateur ne peut contenir que des lettres, des chiffres, des tirets et des traits de soulignement."
+
+#: includes/class-main.php:68
+msgid "Username cannot exceed 39 characters."
+msgstr "Le nom d'utilisateur ne peut pas dépasser 39 caractères."
+
+#: includes/class-main.php:67
+msgid "Username must be at least 1 character."
+msgstr "Le nom d'utilisateur doit comporter au moins 1 caractère."
+
+#: includes/class-main.php:77
+msgid "Valid"
+msgstr "Valide"
+
+#: includes/class-main.php:353
+msgid "Visibility of the repository. Private repositories use GitHub Pages for serving media."
+msgstr "Visibilité du dépôt. Les dépôts privés utilisent GitHub Pages pour fournir des médias."
+
+#: includes/class-main.php:97 includes/class-settings.php:162
+msgid "Write Permission"
+msgstr "Autorisation d'écriture"
+
+#: includes/class-settings.php:170
+msgid "Write permission confirmed"
+msgstr "Autorisation d'écriture confirmée"
+
+#: includes/class-github-api.php:55
+msgid "Write permission denied"
+msgstr "Autorisation d'écriture refusée"
+
+#: includes/class-github-api.php:49
+msgid "Write permission verified"
+msgstr "Autorisation d'écriture vérifiée"
+
+#: includes/class-main.php:285
+msgid "Your GitHub username or organization name where the repository exists."
+msgstr "Votre nom d'utilisateur GitHub ou le nom de l'organisation où se trouve le dépôt."
