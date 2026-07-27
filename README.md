@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/inject3r/upload-to-github/main/assets/icon-256x256.png" width="80" height="80" alt="Upload to GitHub">
+  <img src="https://raw.githubusercontent.com/inject3r/upload-to-github/master/assets/icon-256x256.png" width="80" height="80" alt="Upload to GitHub">
 </p>
 
 # Upload to GitHub
@@ -10,7 +10,7 @@ Upload WordPress media files directly to a GitHub repository instead of the defa
 
 ## Banner
 
-![Plugin Banner](https://raw.githubusercontent.com/inject3r/upload-to-github/main/assets/banner-1544x500.png)
+![Plugin Banner](https://raw.githubusercontent.com/inject3r/upload-to-github/master/assets/banner-1544x500.png)
 
 ---
 
@@ -82,6 +82,7 @@ Yes! Set a custom path in the plugin settings. Example: "test/test2" will upload
 ## Changelog
 
 ### 1.0.0
+
 - Initial release
 - Direct upload to GitHub repository
 - Support for all WordPress image sizes
