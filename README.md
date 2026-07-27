@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/inject3r/upload-to-github/master/assets/icon-256x256.png" width="80" height="80" alt="Upload to GitHub">
+  <img src="https://raw.githubusercontent.com/inject3r/upload-to-github/master/assets/icon-256x256.png" width="120" height="120" alt="Upload to GitHub">
 </p>
 
 # Upload to GitHub
