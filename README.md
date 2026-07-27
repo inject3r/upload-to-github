@@ -2,6 +2,14 @@
   <img src="https://raw.githubusercontent.com/inject3r/upload-to-github/master/assets/icon-256x256.png" width="120" height="120" alt="Upload to GitHub">
 </p>
 
+[![WordPress](https://img.shields.io/badge/WordPress-5.0+-blue.svg)](https://wordpress.org/)
+[![PHP](https://img.shields.io/badge/PHP-7.4+-yellow.svg)](https://www.php.net/)
+[![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![GitHub](https://img.shields.io/badge/github-inject3r/upload--to--github-blue.svg)](https://github.com/inject3r/upload-to-github)
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/upload-to-github.svg)](https://wordpress.org/plugins/upload-to-github/)
+[![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/upload-to-github.svg)](https://wordpress.org/plugins/upload-to-github/)
+[![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/r/upload-to-github.svg)](https://wordpress.org/plugins/upload-to-github/)
+
 # Upload to GitHub
 
 Upload WordPress media files directly to a GitHub repository instead of the default uploads folder.
