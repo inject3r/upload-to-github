@@ -10,7 +10,7 @@ Upload WordPress media files directly to a GitHub repository instead of the defa
 
 ## Banner
 
-![Plugin Banner](https://raw.githubusercontent.com/inject3r/upload-to-github/master/assets/banner-1544x500.png)
+![Plugin Banner](https://raw.githubusercontent.com/inject3r/upload-to-github/master/banner.png)
 
 ---
 
