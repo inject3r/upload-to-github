@@ -83,9 +83,30 @@ Yes! Set a custom path in the plugin settings. Example: "test/test2" will upload
 * Housekeeping: full PHPCS/WordPress Coding Standards pass and added inline documentation.
 
 = 1.0.0 =
-* Initial release.
+* Initial release
+* Direct upload to GitHub repository
+* Support for all WordPress image sizes
+* Private repository support with GitHub Pages
+* Media migration from WordPress uploads folder
+* Custom upload path support
+* Full translation support
+
+== Requirements ==
+
+* WordPress 5.0 or higher
+* PHP 7.4 or higher
+* GitHub account with Personal Access Token (repo scope)
 
 == Upgrade Notice ==
 
 = 1.0.1 =
 Security and coding-standards hardening release. Upgrade recommended for all users.
+
+== Support ==
+
+For support, feature requests, or bug reports:
+https://github.com/inject3r/upload-to-github/issues
+
+== License ==
+
+GPLv2 or later
