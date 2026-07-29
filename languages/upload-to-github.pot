@@ -16,6 +16,10 @@ msgstr ""
 "X-Loco-Version: 2.8.6; wp-7.0.1; php-8.4.23\n"
 "X-Domain: upload-to-github"
 
+#: includes/class-ug-upload-handler.php:150
+msgid "Image editing is disabled."
+msgstr ""
+
 #: includes/class-settings.php:151
 msgid "(Created by this plugin)"
 msgstr ""
